@@ -31,10 +31,10 @@ class config {
       // 1件あたりの最大ファイルサイズ(単位 : MByte)
       // php.iniのmemory_limit, post_max_size, upload_max_filesizeの値以下になるようにして下さい。
       // nginxを使用している場合はサーバー設定にclient_max_body_sizeをこの値で設定してください。
-      'max_file_size'       => 2,
+      'max_file_size'       => 20,
 
       // アップロードできる拡張子
-      'extension'           => array('zip','rar','lzh'),
+      'extension'           => array('zip','rar','lzh','jpg','png'),
 
       // データベースディレクトリ
       'db_directory'        => './db',
