@@ -19,12 +19,12 @@ phpUploader
 ## Install
 
 
-②config/config.phpを任意の値で編集。
+・config/config.phpを任意の値で編集。
 
-③設置したディレクトリにapacheまたはnginxの実行権限を付与。
+・設置したディレクトリにapacheまたはnginxの実行権限を付与。
 
-④この状態でサーバーに接続するとDBファイル(既定値 ./db/uploader.db)とデータ設置用のディレクトリ(既定値 ./data)が作成される。
+・この状態でサーバーに接続するとDBファイル(既定値 ./db/uploader.db)とデータ設置用のディレクトリ(既定値 ./data)が作成される。
 
-⑤configディレクトリとデータ設置用のディレクトリ(既定値 ./data)に.htaccessなどを用いて外部からの接続を遮断させる。
+・configディレクトリとデータ設置用のディレクトリ(既定値 ./data)に.htaccessなどを用いて外部からの接続を遮断させる。
 
-⑥ファイルがアップロードできるよう、PHPとapacheまたはnginxの設定を変更。
+・ファイルがアップロードできるよう、PHPとapacheまたはnginxの設定を変更。
